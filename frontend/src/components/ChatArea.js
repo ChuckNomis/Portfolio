@@ -13,7 +13,9 @@ const ChatArea = ({
   currentInput,
   setCurrentInput,
   messagesEndRef,
-  showQuestions
+  showQuestions,
+  error,
+  isLoading
 }) => {
   const hasMessages = messages.length > 0;
 
@@ -37,13 +39,21 @@ const ChatArea = ({
             )}
           </div>
         )}
+        
+        {/* Error Display */}
+        {error && (
+          <div className="error-banner">
+            <span className="error-icon">⚠️</span>
+            <span className="error-text">{error}</span>
+          </div>
+        )}
       </div>
 
       <InputArea 
         onSendMessage={onSendMessage}
         currentInput={currentInput}
         setCurrentInput={setCurrentInput}
-        disabled={isTyping}
+        disabled={isTyping || isLoading}
       />
     </div>
   );
