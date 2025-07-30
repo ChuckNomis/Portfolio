@@ -8,6 +8,7 @@ const ChatInterface = () => {
   const [messages, setMessages] = useState([]);
   const [isTyping, setIsTyping] = useState(false);
   const [currentInput, setCurrentInput] = useState('');
+  const [showQuestions, setShowQuestions] = useState(true);
   const messagesEndRef = useRef(null);
 
   const scrollToBottom = () => {
@@ -29,6 +30,7 @@ const ChatInterface = () => {
     
     setMessages(prev => [...prev, userMessage]);
     setIsTyping(true);
+    setShowQuestions(false); // Hide questions while processing
 
     // Simulate typing delay
     setTimeout(() => {
@@ -59,6 +61,11 @@ const ChatInterface = () => {
 
       setMessages(prev => [...prev, assistantMessage]);
       setIsTyping(false);
+      
+      // Show questions again after response
+      setTimeout(() => {
+        setShowQuestions(true);
+      }, 500);
     }, 1500);
   };
 
@@ -77,6 +84,7 @@ const ChatInterface = () => {
         currentInput={currentInput}
         setCurrentInput={setCurrentInput}
         messagesEndRef={messagesEndRef}
+        showQuestions={showQuestions}
       />
     </div>
   );
