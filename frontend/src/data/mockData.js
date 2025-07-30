@@ -1,149 +1,240 @@
 export const mockResponses = {
-  education: `🎓 **Educational Background**
+  education: `# 🎓 **Educational Journey**
 
-**Current Education:**
-• BSc Computer Science at The Academic College of Tel Aviv-Yaffo (2023-2026)
-• Currently in second year of studies
+## **Current Academic Pursuit**
+**BSc Computer Science** | *The Academic College of Tel Aviv-Yaffo*  
+📅 **2023-2026** • Currently in **second year**
 
-**Military Service:**
-• Israeli Air Force - Website Manager & Front-end Developer
-• Managed unit's website within the Air Force network
-• Developed and maintained front-end using HTML and CSS
-• Ensured accessibility and up-to-date information for users
+## **Military Excellence**
+**Israeli Air Force** | *Website Manager & Front-end Developer*
+- 🌐 **Website Management**: Led unit's website within Air Force network
+- 💻 **Frontend Development**: HTML & CSS expertise for user-friendly interfaces  
+- 🎯 **Mission Critical**: Ensured accessibility and real-time information updates
+- 👥 **User Focus**: Optimized experience for military personnel
 
-**Languages:**
-• Hebrew - Native speaker
-• English - Excellent proficiency
+## **Language Proficiency**
+🇮🇱 **Hebrew** - Native Speaker  
+🇺🇸 **English** - Excellent Proficiency
 
-Nadav is currently pursuing his Bachelor's degree while gaining practical experience in web development and AI engineering through various projects and courses.`,
+---
+*Nadav combines formal Computer Science education with practical military experience, creating a unique foundation for his AI engineering career.*`,
 
-  projects: `🚀 **Nadav's Projects**
+  projects: `# 🚀 **Project Portfolio**
 
-**1. Cast2Cast** - [www.cast2cast.com](http://www.cast2cast.com/)
-• Actor Connection Game built with React and TypeScript
-• Players connect two actors through movies and co-stars
-• Integrated TMDB API for dynamic movie data
-• Responsive UI design with Flask backend
-• **Tech Stack:** React, TypeScript, TMDB API, Flask
+## **1. Cast2Cast** 🎬
+**[www.cast2cast.com](http://www.cast2cast.com/)**
 
-**2. PDF to Chat-Bot (RAG System)**
-• AI chatbot that answers queries about PDF documents
-• Uses Retrieval-Augmented Generation (RAG) technology
-• Implemented PDF parsing and semantic embedding
-• Built with OpenAI models via LangChain
-• Applied prompt engineering and foundation models
-• **Tech Stack:** React, FastAPI, LangChain, OpenAI API, Tesseract OCR
+**🎯 What it does:** Interactive game connecting actors through movies and co-stars
+- **🎮 Game Mechanics**: Players navigate actor networks via shared films
+- **🔄 Dynamic Data**: Real-time integration with TMDB API
+- **📱 Responsive Design**: Seamless experience across all devices
+- **⚡ Performance**: Fast Flask backend for quick responses
 
-**3. DoesItExist** - [https://doesitexist.onrender.com](https://doesitexist.onrender.com/)
-• AI-powered web application to check if inventions already exist
-• Built with LangChain and LangGraph for intelligent agent functionality
-• Searches patents, academic research, and internet via APIs
-• Multi-tool AI agent for comprehensive research
-• **Tech Stack:** FastAPI, LangChain, LangGraph, OpenAI API, Embedding
+**💻 Tech Stack:** \`React\` • \`TypeScript\` • \`TMDB API\` • \`Flask\`
 
-All projects demonstrate Nadav's expertise in full-stack development, AI integration, and modern web technologies!`,
+---
 
-  skills: `💻 **Technical Skills**
+## **2. PDF to Chat-Bot (RAG System)** 🤖
+**Advanced AI Document Assistant**
 
-**Programming Languages:**
-• **Python** - Experienced (AI/ML, Backend)
-• **JavaScript** - Experienced (Frontend development)
-• **C/C++** - Experienced
-• **C#** - Experienced  
-• **Java** - Experienced
+**🎯 What it does:** AI chatbot that intelligently answers questions about PDF documents
+- **📄 Smart Parsing**: Advanced PDF text extraction and processing
+- **🧠 Semantic Understanding**: Vector embeddings for context comprehension  
+- **💬 Natural Conversation**: OpenAI-powered responses via LangChain
+- **🔍 Retrieval-Augmented Generation**: RAG technology for accurate answers
+- **👁️ OCR Integration**: Tesseract for image-to-text conversion
 
-**AI & Machine Learning:**
-• **Gen AI** - Experienced
-• **LangChain** - Experienced (RAG systems, AI agents)
-• **LangGraph** - Experienced (Multi-agent workflows)
-• **MCP (Model Context Protocol)** - Experienced
-• **OpenAI API** - Integration and prompt engineering
-• **Embedding Technologies** - Semantic search
+**💻 Tech Stack:** \`React\` • \`FastAPI\` • \`LangChain\` • \`OpenAI API\` • \`Tesseract OCR\`
 
-**Web Development:**
-• **React** - Experienced (Frontend frameworks)
-• **FastAPI** - Backend development
-• **Flask** - Web applications
-• **REST APIs** - Design and implementation
-• **HTML/CSS** - UI/UX development
+---
 
-**Databases & Tools:**
-• **PostgreSQL** - Experienced
-• **SQL** - Database management
-• **Docker** - Containerization
-• **Git** - Version control
-• **VS Code & Cursor** - Development environments
+## **3. DoesItExist** 💡
+**[https://doesitexist.onrender.com](https://doesitexist.onrender.com/)**
 
-**Specialized Technologies:**
-• **Tesseract OCR** - Document processing
-• **TMDB API** - Entertainment data integration
-• **.NET** - Enterprise development
+**🎯 What it does:** AI-powered research agent that validates invention uniqueness
+- **🔬 Multi-Source Research**: Patents, academic papers, and web search
+- **🤖 Intelligent Agents**: LangGraph-powered multi-agent workflows
+- **📊 Comprehensive Analysis**: Cross-references multiple databases
+- **⚡ Real-time Results**: Fast API responses with detailed findings
+- **🎯 Practical Application**: Helps inventors avoid duplication
 
-Nadav combines traditional software engineering with cutting-edge AI technologies to build innovative solutions!`,
+**💻 Tech Stack:** \`FastAPI\` • \`LangChain\` • \`LangGraph\` • \`OpenAI API\` • \`Vector Embeddings\`
 
-  about: `👨‍💻 **About Nadav Simon**
+---
+*Each project demonstrates Nadav's expertise in **full-stack development**, **AI integration**, and **modern web technologies**!*`,
 
-Nadav is a motivated BSc Computer Science student with a passion for AI development and intelligent systems. Currently in his second year at The Academic College of Tel Aviv-Yaffo, he combines academic learning with hands-on experience in building innovative applications.
+  skills: `# 💻 **Technical Expertise**
 
-**Background:**
-• AI Engineer specializing in intelligent agents and automation systems
-• Full-stack developer with expertise in React, FastAPI, and Flask
-• Former Israeli Air Force website manager and front-end developer
-• Experienced in working with MCP architectures and LLM integrations
+## **🔥 Core Programming Languages**
+- **🐍 Python** - *Expert Level* | AI/ML, Backend Development, Data Science
+- **⚡ JavaScript** - *Expert Level* | Modern Frontend, React Ecosystem  
+- **💎 C/C++** - *Advanced* | System Programming, Performance Optimization
+- **🔷 C#** - *Advanced* | Enterprise Development, .NET Ecosystem
+- **☕ Java** - *Advanced* | Object-Oriented Programming, Enterprise Apps
 
-**What Makes Nadav Special:**
-• **Practical Experience:** Builds real-world applications that solve actual problems
-• **AI Expertise:** Specializes in RAG systems, intelligent agents, and LLM integrations
-• **Full-Stack Skills:** Comfortable with both frontend design and backend logic
-• **Innovation Focus:** Creates unique projects like actor connection games and patent research tools
+## **🤖 AI & Machine Learning Mastery**
+- **🧠 Generative AI** - *Expert* | GPT Integration, Prompt Engineering
+- **🔗 LangChain** - *Expert* | RAG Systems, AI Agent Development
+- **📊 LangGraph** - *Expert* | Multi-Agent Workflows, Complex Orchestration
+- **🔌 MCP Protocol** - *Advanced* | Model Context Protocol Implementation
+- **🎯 OpenAI API** - *Expert* | Fine-tuning, Custom Integrations
+- **🔍 Vector Embeddings** - *Advanced* | Semantic Search, Similarity Matching
 
-**Current Focus:**
-• Developing AI-powered applications using LangChain and LangGraph
-• Building intelligent chatbots and automation systems
-• Exploring cutting-edge AI technologies and their practical applications
-• Combining traditional software engineering with modern AI capabilities
+## **🌐 Web Development Stack**
+- **⚛️ React** - *Expert* | Modern Frontend, Component Architecture
+- **🚀 FastAPI** - *Advanced* | High-Performance Python APIs
+- **🌶️ Flask** - *Advanced* | Lightweight Web Applications
+- **🔄 REST APIs** - *Expert* | Design, Implementation, Documentation
+- **🎨 HTML/CSS** - *Advanced* | Modern UI/UX, Responsive Design
 
-**Contact Information:**
-• **Email:** nadav@s1mon.co.il
-• **Phone:** +972-58-665-5447
-• **LinkedIn:** [LinkedIn Profile](https://linkedin.com/in/nadav-simon)
-• **GitHub:** [GitHub Profile](https://github.com/nadav-simon)
+## **💾 Database & DevOps**
+- **🐘 PostgreSQL** - *Advanced* | Complex Queries, Performance Tuning
+- **📝 SQL** - *Expert* | Database Design, Optimization
+- **🐳 Docker** - *Advanced* | Containerization, Deployment
+- **🔧 Git** - *Expert* | Version Control, Collaboration
+- **💡 VS Code & Cursor** - *Expert* | AI-Powered Development
 
-Nadav is passionate about creating innovative solutions that bridge the gap between traditional software development and modern AI technologies!`,
+## **🛠️ Specialized Technologies**
+- **👁️ Tesseract OCR** - *Advanced* | Document Processing, Text Extraction
+- **🎬 TMDB API** - *Advanced* | Entertainment Data Integration
+- **🏢 .NET Framework** - *Advanced* | Enterprise Solutions
 
-  courses: `📚 **Courses & Certifications**
+---
+*Nadav's **unique combination** of traditional software engineering with **cutting-edge AI technologies** creates innovative solutions that bridge the gap between conventional development and modern intelligent systems.*`,
 
-**Recent Completed Courses (2025):**
+  about: `# 👨‍💻 **Meet Nadav Simon**
+## **AI Engineer • Full-Stack Developer • Innovation Enthusiast**
 
-**1. Machine Learning A-Z: AI, Python & R** (May-June 2025)
-• **Platform:** Udemy
-• **Focus:** Comprehensive machine learning fundamentals
-• **Coverage:** Python and R programming for ML
-• **Skills Gained:** Data preprocessing, regression, classification, clustering
+---
 
-**2. AI Agents Course** (June-July 2025)
-• **Platform:** Hugging Face
-• **Focus:** Building intelligent AI agents
-• **Coverage:** Agent architectures, decision-making systems
-• **Skills Gained:** Multi-agent systems, autonomous agents
+## **🚀 Professional Journey**
 
-**3. Introduction to LangGraph** (June-July 2025)
-• **Platform:** LangChain
-• **Focus:** Advanced agent workflows and orchestration
-• **Coverage:** Graph-based agent systems, complex workflows
-• **Skills Gained:** LangGraph implementation, agent coordination
+**Passionate Computer Science student** currently in his **second year** at The Academic College of Tel Aviv-Yaffo, with an exceptional focus on **AI development** and **intelligent systems**.
 
-**Ongoing Education:**
-• **BSc Computer Science** - The Academic College of Tel Aviv-Yaffo (2023-2026)
-• Currently in second year of studies
-• Focus areas: Software engineering, algorithms, data structures
+### **💼 Current Role & Background**
+- **🤖 AI Engineer** specializing in intelligent agents and automation
+- **💻 Full-Stack Developer** with React, FastAPI, and Flask expertise  
+- **🎖️ Former Israeli Air Force** website manager and frontend developer
+- **🏗️ MCP Architecture Expert** with hands-on LLM integration experience
 
-**Military Training:**
-• **Israeli Air Force** - Technical training in web development
-• Website management and maintenance
-• Front-end development with HTML/CSS
+---
 
-These courses complement Nadav's practical project experience and demonstrate his commitment to staying current with the latest AI and machine learning technologies. His combination of formal education and specialized AI training makes him well-equipped for modern software development challenges!`
+## **✨ What Makes Nadav Special**
+
+### **🎯 Practical Innovation**
+Creates **real-world applications** that solve actual problems - from actor connection games to patent research tools.
+
+### **🧠 AI Expertise** 
+Deep specialization in **RAG systems**, **intelligent agents**, and **LLM integrations** using cutting-edge technologies.
+
+### **🔄 Full-Stack Mastery**
+Seamlessly bridges **frontend design** and **backend logic** with modern development practices.
+
+### **💡 Future-Forward Thinking**
+Constantly exploring and implementing the **latest AI technologies** in practical applications.
+
+---
+
+## **🎯 Current Focus Areas**
+
+- **🤖 AI-Powered Applications** using LangChain and LangGraph
+- **💬 Intelligent Chatbots** and automation systems  
+- **🔬 Cutting-Edge AI Research** and practical implementations
+- **🌉 Bridging Traditional Software** with modern AI capabilities
+
+---
+
+## **📬 Let's Connect!**
+
+### **Professional Contact**
+- **✉️ Email:** [nadav@s1mon.co.il](mailto:nadav@s1mon.co.il)
+- **📱 Phone:** [+972-58-665-5447](tel:+972586655447)
+
+### **Professional Profiles**
+- **💼 LinkedIn:** [Connect with Nadav](https://linkedin.com/in/nadav-simon)
+- **👨‍💻 GitHub:** [View Code Portfolio](https://github.com/nadav-simon)
+
+---
+
+*Nadav is passionate about creating **innovative solutions** that demonstrate how traditional software development and modern AI technologies can work together to solve complex real-world challenges.*`,
+
+  courses: `# 📚 **Learning & Development Journey**
+
+## **🎓 Recent Certifications (2025)**
+
+### **1. Machine Learning A-Z: AI, Python & R**
+**📅 May-June 2025** | *Udemy Platform*
+
+**🎯 Comprehensive ML Fundamentals**
+- **🐍 Python & R Programming** for Machine Learning
+- **📊 Data Preprocessing** and Feature Engineering
+- **🔮 Predictive Modeling** - Regression, Classification, Clustering
+- **🧠 Neural Networks** and Deep Learning Basics
+- **📈 Model Evaluation** and Performance Optimization
+
+---
+
+### **2. AI Agents Course**  
+**📅 June-July 2025** | *Hugging Face*
+
+**🤖 Advanced Agent Development**
+- **🏗️ Agent Architectures** and Design Patterns
+- **🎯 Decision-Making Systems** and Autonomous Behavior
+- **🔄 Multi-Agent Coordination** and Communication
+- **⚡ Real-Time Agent Systems** and Performance
+- **🛠️ Production Deployment** of AI Agents
+
+---
+
+### **3. Introduction to LangGraph**
+**📅 June-July 2025** | *LangChain Official*
+
+**📊 Graph-Based AI Systems**
+- **🔗 LangGraph Fundamentals** and Core Concepts
+- **🌐 Complex Workflow Design** and Orchestration  
+- **🤖 Multi-Agent Graph Systems** and Coordination
+- **⚡ Advanced Agent Workflows** and State Management
+- **🚀 Production Implementation** and Best Practices
+
+---
+
+## **🎯 Ongoing Academic Education**
+
+### **BSc Computer Science**
+**📅 2023-2026** | *The Academic College of Tel Aviv-Yaffo*
+
+**Currently in Second Year** - Focus Areas:
+- **💻 Software Engineering** and System Design
+- **🔢 Algorithms** and Data Structures  
+- **🏗️ System Architecture** and Design Patterns
+- **🤖 AI/ML Integration** in Software Systems
+
+---
+
+## **🎖️ Military Technical Training**
+
+### **Israeli Air Force**
+**Advanced Technical Development**
+- **🌐 Web Development** and System Management
+- **💻 Frontend Technologies** - HTML, CSS, JavaScript
+- **🔧 System Maintenance** and Performance Optimization
+- **👥 Team Leadership** and Technical Coordination
+
+---
+
+## **🔄 Continuous Learning Philosophy**
+
+*Nadav's combination of **formal education**, **specialized AI training**, and **practical project experience** creates a comprehensive skill set perfectly suited for modern software development challenges.*
+
+**Always staying current** with the latest AI and machine learning technologies through:
+- **📖 Technical Research** and Documentation
+- **🛠️ Hands-On Projects** and Implementation
+- **🌐 Community Engagement** and Knowledge Sharing
+- **💡 Innovation Experimentation** and Prototyping
+
+---
+
+*This balanced approach of **theoretical foundation** and **practical application** makes Nadav exceptionally well-equipped for tackling complex AI engineering challenges.*`
 };
 
 export const contactInfo = {
