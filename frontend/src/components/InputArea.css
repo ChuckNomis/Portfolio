@@ -1,5 +1,5 @@
 .input-area {
-  padding: 24px 32px;
+  padding: 16px 32px 24px;
   border-top: 1px solid var(--border-subtle);
   background: var(--bg-primary);
 }
@@ -10,31 +10,32 @@
 }
 
 .input-form {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .input-wrapper {
   display: flex;
   align-items: flex-end;
-  gap: 12px;
+  gap: 8px;
   background: var(--bg-secondary);
-  border: 2px solid var(--border-primary);
-  border-radius: 16px;
-  padding: 16px;
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  padding: 12px 16px;
   transition: all 0.2s ease;
+  position: relative;
 }
 
 .input-wrapper:focus-within {
   border-color: var(--accent-primary);
-  box-shadow: 0 0 0 4px rgba(218, 255, 1, 0.1);
+  box-shadow: 0 0 0 3px rgba(218, 255, 1, 0.1);
 }
 
 .attachment-btn {
   background: transparent;
   border: none;
   color: var(--text-muted);
-  padding: 8px;
-  border-radius: 8px;
+  padding: 6px;
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
@@ -52,13 +53,13 @@
   background: transparent;
   border: none;
   color: var(--text-primary);
-  font-size: 16px;
+  font-size: 15px;
   font-family: inherit;
   line-height: 1.5;
   resize: none;
   outline: none;
-  min-height: 24px;
-  max-height: 120px;
+  min-height: 20px;
+  max-height: 100px;
   overflow-y: auto;
 }
 
@@ -74,15 +75,15 @@
 .input-actions {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .voice-btn {
   background: transparent;
   border: none;
   color: var(--text-muted);
-  padding: 8px;
-  border-radius: 8px;
+  padding: 6px;
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
@@ -104,15 +105,15 @@
   background: var(--accent-primary);
   border: none;
   color: var(--bg-primary);
-  padding: 10px;
-  border-radius: 8px;
+  padding: 8px;
+  border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 40px;
-  height: 40px;
+  min-width: 32px;
+  height: 32px;
 }
 
 .send-btn:hover:not(:disabled) {
@@ -132,7 +133,7 @@
 }
 
 .input-hint {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-muted);
   line-height: 1.4;
 }
@@ -145,12 +146,12 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .input-area {
-    padding: 16px 20px;
+    padding: 12px 20px 16px;
   }
   
   .input-wrapper {
-    padding: 12px;
-    gap: 8px;
+    padding: 10px 12px;
+    gap: 6px;
   }
   
   .message-input {
@@ -159,16 +160,16 @@
   
   .attachment-btn,
   .voice-btn {
-    padding: 6px;
+    padding: 4px;
   }
   
   .send-btn {
-    min-width: 36px;
-    height: 36px;
-    padding: 8px;
+    min-width: 28px;
+    height: 28px;
+    padding: 6px;
   }
   
   .input-hint {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
