@@ -1,0 +1,11 @@
+.chat-interface {
+  display: flex;
+  height: 100vh;
+  background: var(--bg-primary);
+}
+
+@media (max-width: 768px) {
+  .chat-interface {
+    flex-direction: column;
+  }
+}
