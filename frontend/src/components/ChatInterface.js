@@ -65,7 +65,7 @@ const ChatInterface = () => {
       // Show questions again after response
       setTimeout(() => {
         setShowQuestions(true);
-      }, 500);
+      }, 100);
     }, 1500);
   };
 
