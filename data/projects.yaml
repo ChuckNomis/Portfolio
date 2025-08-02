@@ -1,0 +1,142 @@
+projects:
+  - name: "NadavBot Portfolio"
+    description: "Personal portfolio website built as a ChatGPT-style chatbot using Graph RAG"
+    technologies:
+      [
+        "React",
+        "TailwindCSS",
+        "LangGraph",
+        "LlamaIndex",
+        "OpenAI API",
+        "FastAPI",
+      ]
+    year: 2024
+    status: "In Development"
+    category: "Personal Project"
+    highlights:
+      - "Implements Graph RAG for accurate information retrieval"
+      - "ChatGPT-style UI with dark theme"
+      - "Knowledge graph built with LlamaIndex"
+      - "Short-term memory for conversation context"
+    links:
+      github: "https://github.com/[username]/nadavbot-portfolio"
+      demo: "https://nadavbot.vercel.app"
+
+  - name: "AI Customer Support System"
+    description: "Multi-agent RAG system for automated customer support with CRM integration"
+    technologies:
+      ["Python", "LangChain", "PostgreSQL", "Redis", "Docker", "AWS"]
+    year: 2023
+    status: "Production"
+    category: "Enterprise"
+    highlights:
+      - "Reduced response time by 80%"
+      - "Improved customer satisfaction scores"
+      - "Integrated with existing CRM systems"
+      - "Multi-language support"
+    metrics:
+      response_time_reduction: "80%"
+      tickets_handled_daily: 1000
+      accuracy_rate: "95%"
+
+  - name: "E-commerce Platform"
+    description: "Full-stack e-commerce solution with modern web technologies"
+    technologies: ["React", "Node.js", "MongoDB", "Stripe", "AWS", "Docker"]
+    year: 2022
+    status: "Production"
+    category: "Commercial"
+    highlights:
+      - "Responsive design with mobile-first approach"
+      - "Secure payment processing with Stripe"
+      - "Real-time inventory management"
+      - "Automated CI/CD deployment"
+    metrics:
+      monthly_users: 50000
+      conversion_rate: "3.2%"
+      uptime: "99.9%"
+
+  - name: "Real-time Analytics Dashboard"
+    description: "Interactive dashboard for business intelligence and data visualization"
+    technologies:
+      ["Vue.js", "D3.js", "Python", "FastAPI", "PostgreSQL", "WebSockets"]
+    year: 2022
+    status: "Production"
+    category: "Enterprise"
+    highlights:
+      - "Real-time data streaming with WebSockets"
+      - "Interactive charts and visualizations"
+      - "Configurable alert system"
+      - "Role-based access control"
+
+  - name: "Task Management API"
+    description: "RESTful API for team collaboration and project management"
+    technologies: ["Go", "PostgreSQL", "Redis", "JWT", "Docker", "Kubernetes"]
+    year: 2021
+    status: "Production"
+    category: "SaaS"
+    highlights:
+      - "High-performance Go backend"
+      - "JWT-based authentication"
+      - "Horizontal scaling with Kubernetes"
+      - "Comprehensive API documentation"
+
+  - name: "Weather Forecast App"
+    description: "Mobile-responsive weather application with location-based forecasts"
+    technologies: ["React Native", "TypeScript", "Weather API", "SQLite"]
+    year: 2021
+    status: "Complete"
+    category: "Mobile"
+    highlights:
+      - "Cross-platform mobile application"
+      - "Offline data caching"
+      - "Location-based weather alerts"
+      - "Clean, intuitive UI design"
+
+  - name: "Code Review Automation"
+    description: "GitHub Actions workflow for automated code quality checks"
+    technologies:
+      ["GitHub Actions", "Python", "ESLint", "Prettier", "SonarQube"]
+    year: 2020
+    status: "Active"
+    category: "DevOps"
+    highlights:
+      - "Automated code quality enforcement"
+      - "Integration with popular linters"
+      - "Custom rule configurations"
+      - "Slack notifications for teams"
+
+technical_skills:
+  frontend:
+    - React
+    - Next.js
+    - Vue.js
+    - TypeScript
+    - TailwindCSS
+    - shadcn/ui
+  backend:
+    - Python
+    - Node.js
+    - Go
+    - FastAPI
+    - Express
+    - Django
+  ai_ml:
+    - LangChain
+    - LangGraph
+    - OpenAI API
+    - LlamaIndex
+    - TensorFlow
+    - PyTorch
+  databases:
+    - PostgreSQL
+    - MongoDB
+    - Redis
+    - SQLite
+    - Vector Databases
+  cloud_devops:
+    - AWS
+    - Docker
+    - Kubernetes
+    - GitHub Actions
+    - Vercel
+    - Railway

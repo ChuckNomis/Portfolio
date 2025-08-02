@@ -1,0 +1,63 @@
+{
+    "theme": "dark",
+    "typography": {
+      "primaryFont": "\"OpenAI Sans\", Inter, system-ui, sans-serif",
+      "sizeBase": 16,
+      "sizeSmall": 14,
+      "lineHeight": 1.5,
+      "codeFont": "\"SFMono-Regular\", Consolas, \"Liberation Mono\", Menlo, monospace"
+    },
+    "colors": {
+      "backgroundPage": "#111413",
+      "sidebarBackground": "#191C1B",
+      "chatContainerBackground": "#1D201F",
+      "textPrimary": "#E1E3E0",
+      "textSecondary": "#C4C7C4",
+      "bubbleAssistantBg": "#32363D",
+      "bubbleUserBg": "#10A37F",
+      "bubbleAssistantText": "#E1E3E0",
+      "bubbleUserText": "#FFFFFF",
+      "inputBg": "#1D201F",
+      "inputText": "#E1E3E0",
+      "inputBorder": "#282A2E",
+      "sendButtonBg": "#10A37F",
+      "sendButtonHoverBg": "#0E9673",
+      "linkColor": "#10A37F",
+      "divider": "#272B29"
+    },
+    "layout": {
+      "outerGutter": "16px",
+      "chatMaxWidth": "600px",
+      "bubbleRadius": "8px",
+      "bubblePadding": "8px 12px",
+      "bubbleMargin": "8px 0",
+      "avatarSize": "28px",
+      "inputHeight": "48px",
+      "inputPadding": "12px"
+    },
+    "chatWindow": {
+      "width": "100%",
+      "maxWidth": "600px",
+      "borderRadius": "8px",
+      "boxShadow": "0 1px 3px rgba(0,0,0,0.4)",
+      "overflowY": "auto"
+    },
+    "messageBubble": {
+      "assistant": {
+        "textAlign": "left",
+        "fontWeight": 400
+      },
+      "user": {
+        "textAlign": "right",
+        "fontWeight": 500
+      }
+    },
+    "inputArea": {
+      "borderRadius": "6px",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "multiline": true,
+      "placeholder": "Type a message..."
+    }
+  }
+  

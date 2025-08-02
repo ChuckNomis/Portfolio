@@ -1,0 +1,27 @@
+{
+  "name": "nadavbot-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio chatbot using Graph RAG and LangGraph",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"python run_backend.py\" \"python run_frontend.py\"",
+    "backend": "python run_backend.py",
+    "frontend": "python run_frontend.py",
+    "build-graph": "cd graph && python build_graph.py",
+    "install-all": "cd backend && pip install -r requirements.txt && cd ../graph && pip install -r requirements.txt && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "portfolio",
+    "chatbot",
+    "ai",
+    "react",
+    "langraph",
+    "fastapi",
+    "openai"
+  ],
+  "author": "Nadav",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

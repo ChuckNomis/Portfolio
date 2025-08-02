@@ -1,0 +1,139 @@
+TECHNICAL SKILLS:
+
+Programming Languages:
+- Python (Advanced) - Primary language for AI/ML and backend development
+- JavaScript/TypeScript (Advanced) - Frontend and full-stack development
+- Go (Intermediate) - High-performance backend services
+- Java (Intermediate) - Enterprise applications
+- SQL (Advanced) - Database design and optimization
+
+Frontend Technologies:
+- React (Advanced) - Component-based UI development
+- Next.js (Advanced) - Full-stack React framework
+- Vue.js (Intermediate) - Progressive web applications  
+- TailwindCSS (Advanced) - Utility-first CSS framework
+- shadcn/ui (Advanced) - Modern React component library
+- HTML5/CSS3 (Advanced) - Semantic markup and responsive design
+
+Backend Technologies:
+- FastAPI (Advanced) - Modern Python API framework
+- Node.js (Advanced) - JavaScript runtime for server-side development
+- Express.js (Advanced) - Minimal Node.js web framework
+- Django (Intermediate) - Full-featured Python web framework
+- RESTful APIs (Advanced) - API design and implementation
+- GraphQL (Intermediate) - Query language for APIs
+
+AI/Machine Learning:
+- LangChain (Advanced) - Framework for LLM applications
+- LangGraph (Advanced) - Multi-agent workflow framework
+- OpenAI API (Advanced) - GPT integration and prompt engineering
+- LlamaIndex (Advanced) - Data framework for LLM applications
+- Vector Databases (Intermediate) - Embedding storage and retrieval
+- RAG Systems (Advanced) - Retrieval-Augmented Generation
+- Prompt Engineering (Advanced) - LLM optimization techniques
+- TensorFlow (Intermediate) - Machine learning framework
+- PyTorch (Intermediate) - Deep learning framework
+
+Databases:
+- PostgreSQL (Advanced) - Relational database management
+- MongoDB (Advanced) - Document-oriented database
+- Redis (Advanced) - In-memory data store and caching
+- SQLite (Advanced) - Lightweight embedded database
+- Vector Databases (Intermediate) - Pinecone, Weaviate, Chroma
+- Graph Databases (Intermediate) - Neo4j, knowledge graphs
+
+Cloud & DevOps:
+- AWS (Advanced) - EC2, Lambda, S3, RDS, CloudFormation
+- Docker (Advanced) - Containerization and deployment
+- Kubernetes (Intermediate) - Container orchestration
+- GitHub Actions (Advanced) - CI/CD automation
+- Vercel (Advanced) - Frontend deployment platform
+- Railway (Intermediate) - Full-stack deployment
+- Nginx (Intermediate) - Web server and reverse proxy
+
+Development Tools:
+- Git (Advanced) - Version control and collaboration
+- VS Code (Advanced) - Primary development environment
+- ESLint/Prettier (Advanced) - Code quality and formatting
+- Jest/Pytest (Advanced) - Unit and integration testing
+- Postman (Advanced) - API testing and documentation
+- Figma (Intermediate) - UI/UX design collaboration
+
+SOFT SKILLS:
+
+Communication:
+- Technical Writing - Clear documentation and code comments
+- Presentation Skills - Explaining complex concepts to diverse audiences
+- Cross-functional Collaboration - Working with designers, PMs, and stakeholders
+- Mentoring - Guiding junior developers and sharing knowledge
+
+Problem Solving:
+- Analytical Thinking - Breaking down complex problems into manageable parts
+- Debugging - Systematic approach to identifying and fixing issues
+- Architecture Design - Planning scalable and maintainable systems
+- Performance Optimization - Identifying bottlenecks and improving efficiency
+
+Leadership:
+- Team Collaboration - Contributing effectively in agile development teams
+- Code Review - Providing constructive feedback and maintaining quality standards
+- Project Planning - Estimating tasks and managing timelines
+- Knowledge Sharing - Conducting tech talks and writing documentation
+
+Learning & Adaptation:
+- Continuous Learning - Staying updated with latest technologies and best practices
+- Technology Evaluation - Assessing new tools and frameworks for project fit
+- Experimentation - Prototyping and testing new approaches
+- Industry Awareness - Following trends in software development and AI
+
+DOMAIN EXPERTISE:
+
+Web Development:
+- Full-stack application architecture
+- Responsive design principles
+- Progressive Web Apps (PWAs)
+- Performance optimization
+- Security best practices
+
+AI/ML Applications:
+- Conversational AI systems
+- Knowledge graph construction
+- Information retrieval systems
+- Multi-agent workflows
+- Prompt engineering strategies
+
+Data Management:
+- Database design and optimization
+- Data pipeline construction
+- ETL processes
+- Caching strategies
+- Data modeling
+
+DevOps & Infrastructure:
+- Microservices architecture
+- Container orchestration
+- CI/CD pipeline design
+- Monitoring and logging
+- Scalability planning
+
+INTERESTS & VALUES:
+
+Professional Interests:
+- Artificial Intelligence and Machine Learning
+- Graph databases and knowledge representation
+- Developer experience and tooling
+- Open source software contribution
+- Technical writing and education
+
+Core Values:
+- Code Quality - Writing clean, maintainable, and well-tested code
+- User-Centric Design - Building products that solve real user problems
+- Continuous Improvement - Always learning and refining approaches
+- Knowledge Sharing - Contributing to the developer community
+- Ethical Technology - Building responsible and inclusive software
+
+Future Learning Goals:
+- Advanced machine learning techniques
+- Distributed systems architecture
+- WebAssembly for performance-critical applications
+- Rust programming language
+- Advanced cloud architecture patterns
